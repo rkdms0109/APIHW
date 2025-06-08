@@ -1,4 +1,4 @@
-from model import BaseModel
+from pydantic import BaseModel
 from typing import List
 
 class Course(BaseModel):
